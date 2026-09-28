@@ -1,0 +1,35 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Sensitive credentials
+setting/lcdms_cookie.txt
+
+# Input large files (PPTX and downloaded MP4 videos)
+input/*
+!input/.gitkeep
+
+# Output generated files (Reports & Captures)
+output/captures/*
+!output/captures/.gitkeep
+output/reports/*
+!output/reports/.gitkeep
+
+# Office temporary files
+~$*
+
+# OS and IDE files
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
